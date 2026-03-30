@@ -8,7 +8,7 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
-import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
+import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import { Award, CheckCircle, Zap } from "lucide-react";
 
@@ -92,18 +92,15 @@ export default function LandingPage() {
   </div>
 
   <div id="reviews" data-section="reviews">
-    <TestimonialCardThirteen
+    <TestimonialCardFive
       title="Customer Reviews"
       description="Hear from our valued customers about their experience with our services."
-      showRating={true}
-      animationType="blur-reveal"
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        { id: "r1", name: "Verified Customer", handle: "@gds_fan", testimonial: "Very friendly Staff, would 100% recommend.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=1" },
-        { id: "r2", name: "Verified Customer", handle: "@gds_fan", testimonial: "Showed up on time, were very Fast with the install and did not interrupt my business.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=2" },
-        { id: "r3", name: "Verified Customer", handle: "@gds_fan", testimonial: "They had so many options to choose from the Door came out to be incredible quality.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=3" },
-        { id: "r4", name: "Verified Customer", handle: "@gds_fan", testimonial: "Worked with them multiple times, always showed up on time and gave me the proper solution. Very reasonable pricing.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=4" }
+        { id: "r1", name: "Verified Customer", date: "2025-05-10", title: "Excellent Service", quote: "Very friendly Staff, would 100% recommend.", tag: "Repair", avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=1" },
+        { id: "r2", name: "Verified Customer", date: "2025-05-11", title: "Fast Installation", quote: "Showed up on time, were very Fast with the install and did not interrupt my business.", tag: "Install", avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=2" },
+        { id: "r3", name: "Verified Customer", date: "2025-05-12", title: "Great Quality", quote: "They had so many options to choose from the Door came out to be incredible quality.", tag: "Custom", avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=3", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=3" }
       ]}
     />
   </div>
