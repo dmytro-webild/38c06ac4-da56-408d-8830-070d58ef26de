@@ -91,7 +91,8 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       gridVariant="four-items-2x2-equal-grid"
-      cardClassName="scale-110 shadow-lg"
+      cardClassName="shadow-lg"
+      imageClassName="object-contain"
       testimonials={[
         { id: "r1", name: "Residential Garage", role: "Project Completed", company: "Custom Install", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-8d4pu4r9.jpg?_wi=2" },
         { id: "r2", name: "Commercial Bay", role: "Project Completed", company: "Steel System", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195437-neavrjbq.png" },
