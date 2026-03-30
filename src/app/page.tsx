@@ -85,17 +85,17 @@ export default function LandingPage() {
           handle: "@linda_p",
           testimonial: "They fixed our garage door on a Sunday morning. Lifesavers!",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-adorable-blue-eyed-female-model-with-hair-knot-wears-overalls-enjoys-drinking-fruit-smoothie-looks-happily-somewhere-while-sits-cozy-restaurant-beautiful-teenage-girl-coffee-shop_273609-3038.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-adorable-blue-eyed-female-model-with-hair-knot-wears-overalls-enjoys-drinking-fruit-smoothie-looks-happily-somewhere-while-sits-cozy-restaurant-beautiful-teenage-girl-coffee-shop_273609-3038.jpg?_wi=1",
         },
         {
           name: "James K.",
           handle: "@james_k",
           testimonial: "Expert repairs at a fair price. Will definitely call again.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-adorable-blue-eyed-female-model-with-hair-knot-wears-overalls-enjoys-drinking-fruit-smoothie-looks-happily-somewhere-while-sits-cozy-restaurant-beautiful-teenage-girl-coffee-shop_273609-3038.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-adorable-blue-eyed-female-model-with-hair-knot-wears-overalls-enjoys-drinking-fruit-smoothie-looks-happily-somewhere-while-sits-cozy-restaurant-beautiful-teenage-girl-coffee-shop_273609-3038.jpg?_wi=2",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-13624.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-13624.jpg?_wi=1"
       avatars={[
         {
           src: "http://img.b2bpic.net/free-photo/smiling-senior-man-with-wireless-bluetooth-looking-window_23-2147859752.jpg",
@@ -239,7 +239,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-13624.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-13624.jpg?_wi=2"
       columns={[
         {
           title: "Links",
