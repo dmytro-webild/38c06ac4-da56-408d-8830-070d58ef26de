@@ -7,10 +7,10 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import { Award, CheckCircle, Zap, ShieldCheck, Clock, Phone, Wrench } from "lucide-react";
+import { Award, CheckCircle, Zap, ShieldCheck, Clock, Wrench } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -41,17 +41,11 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardTestimonial
-      useInvertedBackground={false}
+      <HeroBillboard
       background={{ variant: "gradient-bars" }}
       title="Garage Door Systems: 24/7 Expert Repairs"
       description="Family-owned and trusted for both residential and commercial garage door solutions. We're here for you anytime, day or night."
-      testimonials={[
-        { name: "Mark R.", handle: "@mark_r", testimonial: "Fast, professional, and they came out in the middle of the night!", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-senior-man-with-wireless-bluetooth-looking-window_23-2147859752.jpg?_wi=1" },
-        { name: "Susan L.", handle: "@susan_l", testimonial: "Family owned and it shows in their work.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-crazy-man-happy-expression_1194-1930.jpg?_wi=1" }
-      ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195437-t1312722.jpg?_wi=1"
-      mediaWrapperClassName="md:mt-0 mt-8 mb-8 md:mb-0"
       marqueeItems={[{ type: "text", text: "24/7 Availability" }, { type: "text", text: "Family Owned" }, { type: "text", text: "Licensed & Insured" }]} 
     />
   </div>
