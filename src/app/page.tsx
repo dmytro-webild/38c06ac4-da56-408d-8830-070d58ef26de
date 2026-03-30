@@ -5,12 +5,12 @@ import ReactLenis from "lenis/react";
 import AboutMetric from '@/components/sections/about/AboutMetric';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
-import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
+import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import { Award, CheckCircle, Zap, ShieldCheck, Clock, Wrench } from "lucide-react";
+import { Award, CheckCircle, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -64,16 +64,29 @@ export default function LandingPage() {
   </div>
 
   <div id="features" data-section="features">
-      <FeatureBorderGlow
+      <FeatureCardOne
       title="Our Key Benefits"
       description="Reliable, efficient, and always available when you need us most."
       animationType="blur-reveal"
       useInvertedBackground={false}
       textboxLayout="split"
+      gridVariant="three-columns-all-equal-width"
       features={[
-        { icon: Clock, title: "24/7 Availability", description: "Available around the clock for any garage door emergency." },
-        { icon: ShieldCheck, title: "Certified Reliability", description: "Our technicians are fully licensed, insured, and highly trained." },
-        { icon: Wrench, title: "Expert Repairs", description: "Comprehensive diagnostic and repair services for any system." }
+        {
+           title: "24/7 Availability", 
+           description: "Available around the clock for any garage door emergency.", 
+           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774837185071-19im2rf8.jpg"
+        },
+        {
+           title: "Certified Reliability", 
+           description: "Our technicians are fully licensed, insured, and highly trained.", 
+           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774837185072-g707nrzx.jpg"
+        },
+        {
+           title: "Expert Repairs", 
+           description: "Comprehensive diagnostic and repair services for any system.", 
+           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774837185072-leswhcxg.jpg"
+        }
       ]}
     />
   </div>
