@@ -55,9 +55,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Why Choose GDS?"
       metrics={[
-        { label: "Years Served", value: "20+", icon: Award },
+        { label: "Years Served", value: "5+", icon: Award },
         { label: "Emergency Calls", value: "24/7", icon: Zap },
-        { label: "Happy Clients", value: "5000+", icon: CheckCircle },
+        { label: "Happy Clients", value: "250+", icon: CheckCircle },
       ]}
       metricsAnimation="slide-up"
     />
