@@ -85,7 +85,7 @@ export default function LandingPage() {
         {
            title: "Expert Repairs", 
            description: "Comprehensive diagnostic and repair services for any system.", 
-           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774837185072-leswhcxg.jpg"
+           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774839740336-bwpxfqqq.jpg"
         }
       ]}
     />
