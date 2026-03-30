@@ -50,7 +50,7 @@ export default function LandingPage() {
         { name: "Mark R.", handle: "@mark_r", testimonial: "Fast, professional, and they came out in the middle of the night!", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-senior-man-with-wireless-bluetooth-looking-window_23-2147859752.jpg?_wi=1" },
         { name: "Susan L.", handle: "@susan_l", testimonial: "Family owned and it shows in their work.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-crazy-man-happy-expression_1194-1930.jpg?_wi=1" }
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-13624.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-8d4pu4r9.jpg"
       marqueeItems={[{ type: "text", text: "24/7 Availability" }, { type: "text", text: "Family Owned" }, { type: "text", text: "Licensed & Insured" }]} 
     />
   </div>
@@ -92,12 +92,12 @@ export default function LandingPage() {
       useInvertedBackground={false}
       gridVariant="three-columns-all-equal-width"
       testimonials={[
-        { id: "r1", name: "Residential Garage", role: "Project Completed", company: "Custom Install", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/modern-garage-door_23-2148419614.jpg" },
-        { id: "r2", name: "Commercial Bay", role: "Project Completed", company: "Steel System", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/industrial-garage-door_23-2148483421.jpg" },
-        { id: "r3", name: "Custom Design", role: "Project Completed", company: "Specialty Build", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/luxury-home-garage_23-2148762354.jpg" },
+        { id: "r1", name: "Residential Garage", role: "Project Completed", company: "Custom Install", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-8d4pu4r9.jpg" },
+        { id: "r2", name: "Commercial Bay", role: "Project Completed", company: "Steel System", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195437-neavrjbq.png" },
+        { id: "r3", name: "Custom Design", role: "Project Completed", company: "Specialty Build", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-sfwmnm6m.jpg" },
         { id: "r4", name: "Emergency Repair", role: "Service Done", company: "Quick Response", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-senior-man-with-wireless-bluetooth-looking-window_23-2147859752.jpg?_wi=2" },
         { id: "r5", name: "Commercial Maintenance", role: "Service Done", company: "GDS Pro", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-crazy-man-happy-expression_1194-1930.jpg?_wi=2" },
-        { id: "r6", name: "Residential Upgrade", role: "Installation", company: "Modern Build", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-13624.jpg?_wi=1" }
+        { id: "r6", name: "Residential Upgrade", role: "Installation", company: "Modern Build", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-8d4pu4r9.jpg" }
       ]}
     />
   </div>
