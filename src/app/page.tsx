@@ -86,15 +86,18 @@ export default function LandingPage() {
   <div id="reviews" data-section="reviews">
     <TestimonialCardOne
       title="Customer Reviews"
-      description="Swipe through our gallery of completed projects to see the quality of work our customers trust."
+      description="Hear from our valued customers about their experience with our services."
       animationType="blur-reveal"
       textboxLayout="split"
-      useInvertedBackground={true}
-      gridVariant="timeline"
+      useInvertedBackground={false}
+      gridVariant="three-columns-all-equal-width"
       testimonials={[
         { id: "r1", name: "Residential Garage", role: "Project Completed", company: "Custom Install", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/modern-garage-door_23-2148419614.jpg" },
         { id: "r2", name: "Commercial Bay", role: "Project Completed", company: "Steel System", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/industrial-garage-door_23-2148483421.jpg" },
-        { id: "r3", name: "Custom Design", role: "Project Completed", company: "Specialty Build", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/luxury-home-garage_23-2148762354.jpg" }
+        { id: "r3", name: "Custom Design", role: "Project Completed", company: "Specialty Build", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/luxury-home-garage_23-2148762354.jpg" },
+        { id: "r4", name: "Emergency Repair", role: "Service Done", company: "Quick Response", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-senior-man-with-wireless-bluetooth-looking-window_23-2147859752.jpg" },
+        { id: "r5", name: "Commercial Maintenance", role: "Service Done", company: "GDS Pro", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-crazy-man-happy-expression_1194-1930.jpg" },
+        { id: "r6", name: "Residential Upgrade", role: "Installation", company: "Modern Build", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/photo-metal-texture-pattern_58702-13624.jpg?_wi=1" }
       ]}
     />
   </div>
