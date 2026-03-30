@@ -122,6 +122,7 @@ export default function LandingPage() {
       textarea={{ name: "message", placeholder: "Describe your issue...", rows: 4, required: true }}
       buttonText="Submit Request"
       useInvertedBackground={false}
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774834379467-eqrvb32j.jpg"
     />
   </div>
 
