@@ -8,8 +8,9 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
+import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import { Award, CheckCircle, Zap, ShieldCheck, Clock, Phone, Wrench } from "lucide-react";
+import { Award, CheckCircle, Zap, ShieldCheck, Clock, Phone, Wrench, Quote } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -31,6 +32,7 @@ export default function LandingPage() {
       navItems={[
         { name: "Home", id: "hero" },
         { name: "Services", id: "features" },
+        { name: "Reviews", id: "reviews" },
         { name: "FAQ", id: "faq" },
         { name: "Contact", id: "contact" },
       ]}
@@ -81,6 +83,21 @@ export default function LandingPage() {
     />
   </div>
 
+  <div id="reviews" data-section="reviews">
+    <TestimonialCardTwo
+      title="Customer Reviews"
+      description="Don't just take our word for it—see what our satisfied customers have to say about their experience with GDS."
+      animationType="blur-reveal"
+      textboxLayout="split"
+      useInvertedBackground={true}
+      testimonials={[
+        { id: "r1", name: "Alice Johnson", role: "Homeowner", testimonial: "The service was absolutely impeccable. My garage door works better than when it was first installed!", icon: Quote },
+        { id: "r2", name: "Bob Smith", role: "Commercial Client", testimonial: "Prompt, professional, and very efficient. Highly recommend to anyone needing garage work.", icon: Quote },
+        { id: "r3", name: "Charlie Davis", role: "Homeowner", testimonial: "Finally, a company that shows up on time and finishes the job correctly. 5 stars!", icon: Quote }
+      ]}
+    />
+  </div>
+
   <div id="faq" data-section="faq">
       <FaqSplitText
       sideTitle="Common Garage Door Questions"
@@ -103,7 +120,7 @@ export default function LandingPage() {
         { name: "name", type: "text", placeholder: "Full Name", required: true },
         { name: "email", type: "email", placeholder: "Email Address", required: true }
       ]}
-      textarea={{ name: "message", placeholder: "Describe your issue...", required: true }}
+      textarea={{ name: "message", placeholder: "Describe your issue...", rows: 4, required: true }}
       buttonText="Submit Request"
       useInvertedBackground={false}
     />
