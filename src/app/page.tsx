@@ -102,10 +102,10 @@ export default function LandingPage() {
       cardClassName="shadow-lg"
       imageClassName="object-contain"
       testimonials={[
-        { id: "r1", name: "Residential Garage", role: "Project Completed", company: "Custom Install", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-8d4pu4r9.jpg?_wi=2" },
-        { id: "r2", name: "Commercial Bay", role: "Project Completed", company: "Steel System", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195437-neavrjbq.png" },
-        { id: "r3", name: "Custom Design", role: "Project Completed", company: "Specialty Build", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-sfwmnm6m.jpg" },
-        { id: "r4", name: "Emergency Repair", role: "Service Done", company: "Quick Response", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195437-t1312722.jpg?_wi=2" }
+        { id: "r1", name: "Very friendly Staff, would 100% recommend.", role: "Verified Review", company: "Customer", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-8d4pu4r9.jpg?_wi=2" },
+        { id: "r2", name: "Showed up on time, were very Fast with the install and did not interrupt my business.", role: "Verified Review", company: "Customer", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195437-neavrjbq.png" },
+        { id: "r3", name: "They had so many options to choose from the Door came out to be incredible quality.", role: "Verified Review", company: "Customer", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195438-sfwmnm6m.jpg" },
+        { id: "r4", name: "Worked with them multiple times, always showed up on time and gave me the proper solution. Very reasonable pricing.", role: "Verified Review", company: "Customer", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195437-t1312722.jpg?_wi=2" }
       ]}
     />
   </div>
