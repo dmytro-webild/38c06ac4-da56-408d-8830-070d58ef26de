@@ -127,7 +127,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       title="Get Your Quote Today"
-      description="Fill out the form below and our team will reach out promptly to assist with your garage door needs."
+      description="Contact us at info@garagedoorsystems.com or (437)-776-9973. Fill out the form below and our team will reach out promptly to assist with your garage door needs."
       inputs={[
         { name: "name", type: "text", placeholder: "Full Name", required: true },
         { name: "email", type: "email", placeholder: "Email Address", required: true }
