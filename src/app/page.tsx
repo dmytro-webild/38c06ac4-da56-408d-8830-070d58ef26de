@@ -8,9 +8,9 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/FeatureBorderGlow';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
-import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
+import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import { Award, CheckCircle, Zap, ShieldCheck, Clock, Phone, Wrench, Quote } from "lucide-react";
+import { Award, CheckCircle, Zap, ShieldCheck, Clock, Phone, Wrench } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -84,16 +84,17 @@ export default function LandingPage() {
   </div>
 
   <div id="reviews" data-section="reviews">
-    <TestimonialCardTwo
+    <TestimonialCardOne
       title="Customer Reviews"
-      description="Don't just take our word for it—see what our satisfied customers have to say about their experience with GDS."
+      description="Swipe through our gallery of completed projects to see the quality of work our customers trust."
       animationType="blur-reveal"
       textboxLayout="split"
       useInvertedBackground={true}
+      gridVariant="timeline"
       testimonials={[
-        { id: "r1", name: "Alice Johnson", role: "Homeowner", testimonial: "The service was absolutely impeccable. My garage door works better than when it was first installed!", icon: Quote },
-        { id: "r2", name: "Bob Smith", role: "Commercial Client", testimonial: "Prompt, professional, and very efficient. Highly recommend to anyone needing garage work.", icon: Quote },
-        { id: "r3", name: "Charlie Davis", role: "Homeowner", testimonial: "Finally, a company that shows up on time and finishes the job correctly. 5 stars!", icon: Quote }
+        { id: "r1", name: "Residential Garage", role: "Project Completed", company: "Custom Install", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/modern-garage-door_23-2148419614.jpg" },
+        { id: "r2", name: "Commercial Bay", role: "Project Completed", company: "Steel System", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/industrial-garage-door_23-2148483421.jpg" },
+        { id: "r3", name: "Custom Design", role: "Project Completed", company: "Specialty Build", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/luxury-home-garage_23-2148762354.jpg" }
       ]}
     />
   </div>
