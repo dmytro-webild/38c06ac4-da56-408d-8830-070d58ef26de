@@ -100,10 +100,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        { id: "r1", name: "Verified Customer", handle: "@gds_fan", testimonial: "Very friendly Staff, would 100% recommend.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg" },
-        { id: "r2", name: "Verified Customer", handle: "@gds_fan", testimonial: "Showed up on time, were very Fast with the install and did not interrupt my business.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg" },
-        { id: "r3", name: "Verified Customer", handle: "@gds_fan", testimonial: "They had so many options to choose from the Door came out to be incredible quality.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg" },
-        { id: "r4", name: "Verified Customer", handle: "@gds_fan", testimonial: "Worked with them multiple times, always showed up on time and gave me the proper solution. Very reasonable pricing.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg" }
+        { id: "r1", name: "Verified Customer", handle: "@gds_fan", testimonial: "Very friendly Staff, would 100% recommend.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=1" },
+        { id: "r2", name: "Verified Customer", handle: "@gds_fan", testimonial: "Showed up on time, were very Fast with the install and did not interrupt my business.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=2" },
+        { id: "r3", name: "Verified Customer", handle: "@gds_fan", testimonial: "They had so many options to choose from the Door came out to be incredible quality.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=3" },
+        { id: "r4", name: "Verified Customer", handle: "@gds_fan", testimonial: "Worked with them multiple times, always showed up on time and gave me the proper solution. Very reasonable pricing.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774838149339-3ebc0dxo.jpg?_wi=4" }
       ]}
     />
   </div>
