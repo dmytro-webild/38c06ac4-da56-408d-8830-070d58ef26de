@@ -51,6 +51,7 @@ export default function LandingPage() {
         { name: "Susan L.", handle: "@susan_l", testimonial: "Family owned and it shows in their work.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-crazy-man-happy-expression_1194-1930.jpg?_wi=1" }
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bb7l7rkW38JGikWwEhHpA3VVcU/uploaded-1774833195437-t1312722.jpg?_wi=1"
+      mediaWrapperClassName="md:mt-0 mt-8 mb-8 md:mb-0"
       marqueeItems={[{ type: "text", text: "24/7 Availability" }, { type: "text", text: "Family Owned" }, { type: "text", text: "Licensed & Insured" }]} 
     />
   </div>
